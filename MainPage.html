@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Restaurantorina</title>
+    <link rel="stylesheet" href="MainStyle.css" />
+    
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="LogoFirmy.jpg" alt="Logo" />
+            <h2>Restaurantorina</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul>
+          <li><a href="#">Domů</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#sluzby">Služby</a></li>
+          <li><a href="#procmy">Proč my</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#kontakty">Kontakty</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    </section>
+
+                                              <!-- Horni cast stranky -->
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>Nová restaurace otevrena v Praze</h2>
+            <h3>Přijdte nás navštívit!</h3>
+            <p>
+              Vezmete svoji rodinu s dětmi a dokonce i se psy a pojďte se podívat!
+            </p>
+
+            <div class="hero_section_button">
+              <button class="button">Objednat online</button>
+              <a href="#formular"><button class="button">Rezervační formulář</button></a>
+            </div>
+          </div>
+
+          <div class="image_section">
+            <img src="Suroviny.jpg" alt="Suroviny" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="#menu">               <!--Prepinaci menu-->
+      <div class="Nabidkajidel-menu">
+        <button class="menu-button" onclick="showContent('HlavniJidlo')">Hlavní Jídlo</button>
+        <button class="menu-button" onclick="showContent('Napoje')">Nápoje</button>
+        <button class="menu-button" onclick="showContent('Dezerty')">Dezerty</button>
+        <button class="menu-button" onclick="showContent('Predkrmy')">Předkrmy</button>
+    </div>
+
+                                      <!--Obsah menu-->
+    <div id="HlavniJidlo" class="content active">
+      <div class="clearfix">
+        <img src="svickova2.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      
+        <h2>
+          Svíčková
+        </h2>
+      
+        <p>
+          Ochutnejte naši nejlepší svíčkovou
+        </p>
+        <p><h3>120 Kč</h3></p>
+        
+      </div>
+      <hr>
+      <div class="clearfix">
+        <img src="gulash.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      
+        <h2>Gulásh</h2>
+      
+        <p>
+          As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+        </p>
+      
+        <p>
+          And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+        </p>
+        <p><h3>120 Kč</h3></p>
+      </div>
+
+      <hr>
+
+      <div class="clearfix">
+        <img src="pizza.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      
+        <h2>Pizza</h2>
+      
+        <p>
+          As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+        </p>
+      
+        <p>
+          And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+        </p>
+        <p><h3>120 Kč</h3></p>
+      </div>
+
+        <hr>
+
+        <div class="clearfix">
+          <img src="pizza.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        
+          <h2>Pizza</h2>
+        
+          <p>
+            As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+          </p>
+        
+          <p>
+            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+          </p>
+          <p><h3>120 Kč</h3></p>
+        </div>
+
+        <hr>
+
+        <div class="clearfix">
+          <img src="terrible-food-pics-3.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        
+          <h2>Idk</h2>
+        
+          <p>
+            As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+          </p>
+        
+          <p>
+            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+          </p>
+          <p><h3>120 Kč</h3></p>
+        </div>
+        
+  </div>
+
+
+  <div id="Napoje" class="content">
+    <div class="clearfix">
+      <img src="Piwko.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Piwo</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+    <hr>
+    <div class="clearfix">
+      <img src="water.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Vodka</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+    <hr>
+    <div class="clearfix">
+      <img src="Jager.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Jagermaister</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+    <hr>
+    <div class="clearfix">
+      <img src="Wine.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Víno</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+  </div>
+
+
+  <div id="Dezerty" class="content">
+    <div class="clearfix">
+      <img src="DOrt1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Dort</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+    <hr>
+    <div class="clearfix">
+      <img src="Babovka.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Babovka</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+  </div>
+
+
+  <div id="Predkrmy" class="content">
+    <div class="clearfix">
+      <img src="Breakfast.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    
+      <h2>Snidanovej toast</h2>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+      <p><h3>120 Kč</h3></p>
+    </div>
+
+    <!--<video width="640" height="360" controls>
+      <source src="final_5fdd06ee48539c00ef7b28c2_388536.mp4" type="video/mp4">m      Toto ignoruj
+      Your browser does not support the video tag.
+  </video><!-->
+  </div>
+
+  </section>
+
+
+
+
+    <div id="countdown">                        <!--  Countdown -->
+      <div id="timer">
+        <p>Čas do nového odpoledního menu:</p>
+          <span id="days"></span> Dnu 
+          <span id="hours"></span> Hodin 
+          <span id="minutes"></span> Minut 
+          <span id="seconds"></span> Vterin
+      </div>
+  </div>
+
+
+
+
+    <!-- O nás -->
+    <section class="about_us" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title">O naší restauraci</h2>
+            <p>
+              Jsme rodinná restaurace s dlouholetou tradicí. Od roku 1992 fungujeme již v Brně. Po několika úspěšných letech jsme se rozhodli otevřít jednu i v Praze.
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="PhotoRodinky.jpg" alt="coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section_title">A co si o nás myslí naši zákazníci?</h2>
+      <div class="image-container">
+        <img src="Rewie.png" alt="Image 1">
+        <img src="Rewi2.png" alt="Image 2">
+        <img src="Rew3.png" alt="Image 2">
+        
+    </div>
+    </section>
+
+
+    <!-- Proc my -->
+    <section class="why_us" id="why">
+      <h2 class="section_title">Proč k nám?</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <img src="IkonaKuchar.png" alt="Delicious" />
+            <div class="why_us_text">
+              <h3>Nejlepší chuťový zážitek</h3>
+              <p>
+                S bohatým šířením prstového olizujícího jídla podáváme k uspokojení
+                vaše patro a vezme vás na kulinářský zážitek.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="IkonaLidi.png" alt="Pleasant" />
+            <div class="why_us_text">
+              <h3>Příjemná obsluha</h3>
+              <p>
+                Snažíme se obsloužit všechny naše hosty dokonalým jídlem
+                Zkušenosti. Poskytujeme dokonalé prostředí k uctívání speciálu
+                momenty.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="IkonaMisto.png" alt="Hospitality" />
+            <div class="why_us_text">
+              <h3>Příjemné prostředí</h3>
+              <p>
+                Krásné lokace k posezení v přírodě i vevnitř. Nový nábytek a to vše s krásnou výzdobou a pohostinností pro všechny
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (mela to byt galerie ale potom jsem prehazel strannku) -->
+    <section class="gallery" id="FAQ">
+      
+      <h2>Nejčastěji ptané otázky</h2>
+        <div class="faq-item">
+            <button class="faq-question">Proč mi na horní časti stránky nefunguje objednat online?</button>
+            <div class="faq-answer">
+                <p>Protože náš obchod ještě nemá tuto možnost zprovozněnou</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Dá se zrušit podaná rezervace?</button>
+            <div class="faq-answer">
+                <p>Ano rezervace se dá zrušit ale nejpozději 24 hodin před konaním akce</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Je tento web troll?</button>
+            <div class="faq-answer">
+                <p>Možná maličko ale vic za dva dny nedám more</p>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- Formular na rezervaci -->
+
+      <section class="contact" id="formular">
+        <div class="form-container">
+          <form id="reservation-form" method="post" action="MainP.php">
+              <h2>Formulář pro rezervaci</h2>
+              <label for="name">Jméno:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="date">Datum:</label>
+              <input type="date" id="date" name="date" required>
+              <label for="time">Čas:</label>
+              <input type="time" id="time" name="time" required>
+              <label for="guests">Počet lidí:</label>
+              <input type="number" id="guests" name="guests" min="1" required>
+              <button type="submit">Odeslat</button>
+          </form>
+      </div>
+      </div>
+
+    
+      </section>
+<br>
+      <iframe src="https://frame.mapy.cz/s/dezejedago"></iframe>
+
+
+  </body>
+
+
+</html>
